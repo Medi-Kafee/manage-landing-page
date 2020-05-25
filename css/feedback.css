@@ -1,0 +1,31 @@
+.feedback {
+    height: 500px;
+    clear: both;
+}
+.feedback div {
+    background: gray;
+    display: inline-block;
+    height: 40%;
+    width: 30%;
+    margin-left: 4px;
+    margin-top: 60px;
+}
+.feedback img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 30%;
+    margin-top: -50px;
+}
+.feedback h2,
+.feedback h3,
+.feedback p {
+    text-align: center;
+}
+.feedback p {
+    color: #fff;
+}
+.feedback-btn {
+    margin-left: 50%;
+    margin-right: 50%;
+}

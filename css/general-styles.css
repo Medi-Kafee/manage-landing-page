@@ -1,0 +1,102 @@
+/*
+  ========================================
+  Custom Styles
+  ========================================
+*/
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    font-size: 14px;
+}
+section {
+    margin-top: 40px;
+}
+section div {
+    width: 45%;
+    height: 100%;
+    margin: 0;
+    padding: 4px 8px;
+}
+a {
+    text-decoration: none;
+}
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+.btn {
+    border-radius: 2vw;
+    background: #f05028;
+    width: 20vmin;
+    height: 5vmin;
+}
+
+.btn a {
+    color: #fff;
+}
+.btn-alt {
+    background: #fff;
+}
+.btn-alt a {
+    background: #fff;
+    color: #f05028;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+h1,
+h2,
+h3 {
+    color: #202850;
+    font-family: Georgia, Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 2.85rem;
+    text-align: left;
+}
+h2 {
+    font-size: 2rem;
+}
+h3  {
+    font-size: 1.5em;
+    text-align: left;
+}
+p {
+    text-align: left;
+    color: darkgray;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.floats:before,
+.floats:after {
+  content: "";
+  display: table;
+}
+.floats:after {
+  clear: both;
+}
+.floats {
+  clear: both;
+  *zoom: 1;
+}

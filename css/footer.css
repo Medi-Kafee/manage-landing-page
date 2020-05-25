@@ -1,0 +1,45 @@
+footer {
+    height: 500px;
+}
+.footer1 {
+    background: #f05028;
+    height: 35%;
+}
+footer h2 {
+    color: white;
+    float: left;
+    margin: 4px;
+}
+.footer1-btn {
+    float: right;
+    margin-right: 20%;
+    margin-top: 60px;
+}
+.footer2 {
+    height: 65%;
+    background: #202850;
+    clear: both;
+}
+.footer2 div,
+.footer2 nav {
+    display: inline-block;
+    margin-left: 10px;
+    width: 20%;
+    height: 97.5%;
+}
+.footer2 .logo {
+    width: 90%;
+    height: 25%;
+}
+.footer2 .logo p {
+  color: white;
+}
+.footer2 li {
+    display: block;
+    font-size: 1.3rem;
+    margin: 20px;
+    color: white;
+}
+.footer2-btn {
+  width: 30px;
+}

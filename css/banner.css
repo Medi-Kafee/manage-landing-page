@@ -1,0 +1,9 @@
+.banner {
+height: 700px;
+}
+.banner-left {
+    float:left;
+}
+.banner-right {
+    float: right;
+}
